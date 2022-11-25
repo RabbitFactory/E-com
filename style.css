@@ -35,6 +35,31 @@
 {
     width: 100px;
 }
+.title
+{
+	font-size: 70px;
+	font-weight: bold;
+	color: rgb(171, 98, 38);
+	position: relative;
+
+
+	
+	
+}
+
+.title::before{
+	content: '';
+	position: absolute;
+	left:500px;
+	bottom: 2px;
+	background-color: #e91e63;
+	height: 7px;
+	box-sizing: border-box;
+	width: 300px;
+	border-radius: 20px;
+}
+
+
 .category-1
 {
     background-color: orange;
@@ -66,7 +91,29 @@ h5{
     height: 300px;
 }
 
-
+.me1
+{
+	height: 400px;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.me2
+{
+	height: 450px;
+	width: 265px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.me3
+{
+	height: 400px;
+	width: 280px;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
 
 
 
