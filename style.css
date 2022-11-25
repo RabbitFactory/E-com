@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .carousel-bg
 {
-    background-color: #fceae8;
+    background-color: #f7c7c2;
     border-radius: 10px;
+}
+.logo-png{
+	height: 60px;
+	width: 200px;
+}
+.headphone
+{
+	height: 2px;
+	width: 2px;
 }
 .container
 {
@@ -62,15 +71,16 @@
 
 .category-1
 {
-    background-color: orange;
+background: linear-gradient(0deg, #f6af2c 0%, #fcf282 100%);
 }
 .category-2
 {
-    background-color: orchid;
+background: linear-gradient(0deg, #b93ae7 0%, #e9dbed 100%);
 }
+
 .category-3
 {
-    background-color: skyblue;
+	background: linear-gradient(0deg, #329dfb 0%, #99d6ff 100%);
 }
 .card
 {
@@ -114,7 +124,10 @@ h5{
 	margin-top: 40px;
 	margin-bottom: 25px;
 }
-
+.empty
+{
+	height: 30px;
+}
 
 
 
@@ -127,6 +140,7 @@ h5{
 
 
 body{
+	background-color: #f6ebf0;
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
@@ -134,8 +148,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	background-color: #626671;
+    padding: 70px 20px;
 }
 .footer-col{
    width: 25%;
